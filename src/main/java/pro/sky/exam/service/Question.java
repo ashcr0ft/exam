@@ -1,4 +1,4 @@
-package pro.sky.exam.Service;
+package pro.sky.exam.service;
 
 import java.util.Objects;
 

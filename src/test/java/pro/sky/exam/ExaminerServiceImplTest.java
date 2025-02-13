@@ -1,12 +1,9 @@
 package pro.sky.exam;
 
 import org.junit.jupiter.api.Test;
-import pro.sky.exam.Service.*;
+import pro.sky.exam.service.*;
 
-import java.util.Collection;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static pro.sky.exam.Constants.*;

@@ -1,7 +1,7 @@
-package pro.sky.exam.Service;
+package pro.sky.exam.service;
 
 import org.springframework.stereotype.Service;
-import pro.sky.exam.Exception.InvalidRequestException;
+import pro.sky.exam.exception.InvalidRequestException;
 
 import java.util.Collection;
 import java.util.HashSet;

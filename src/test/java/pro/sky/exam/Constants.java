@@ -1,6 +1,6 @@
 package pro.sky.exam;
 
-import pro.sky.exam.Service.Question;
+import pro.sky.exam.service.Question;
 
 public class Constants {
     public static final String QUESTION1 = "Вопрос1";

@@ -1,11 +1,11 @@
-package pro.sky.exam.Controller;
+package pro.sky.exam.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import pro.sky.exam.Service.Question;
-import pro.sky.exam.Service.QuestionService;
+import pro.sky.exam.service.Question;
+import pro.sky.exam.service.QuestionService;
 
 import java.util.Collection;
 
@@ -20,13 +20,13 @@ public class JavaQuestionController {
     }
 
     @GetMapping("/java/add")
-    public String addQuestion(@RequestParam String question, String answer) {
-        return service.add(question, answer).toString();
+    public Question addQuestion(@RequestParam String question, String answer) {
+        return service.add(question, answer);
     }
 
     @GetMapping("/java/remove")
-    public String removeQuestion(@RequestParam String question, String answer) {
-        return service.remove(question, answer).toString();
+    public Question removeQuestion(@RequestParam String question, String answer) {
+        return service.remove(question, answer);
     }
 
     @GetMapping("/java")

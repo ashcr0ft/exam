@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pro.sky.exam.Service.JavaQuestionService;
-import pro.sky.exam.Service.Question;
-import pro.sky.exam.Service.QuestionService;
+import pro.sky.exam.service.JavaQuestionService;
+import pro.sky.exam.service.Question;
+import pro.sky.exam.service.QuestionService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static pro.sky.exam.Constants.*;
